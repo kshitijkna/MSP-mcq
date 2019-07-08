@@ -1,0 +1,275 @@
+<html>
+  <head>
+    <title>MSP-mcq</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="mcq.css" />
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="layer"></div>
+    <div style="background-color: #111111; z-index: 1000">
+      <div id="app" class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark"
+          style="background-color: #111111"
+        >
+          <div class="container-fluid ">
+
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                <img src="logo.jpg" style="height: 5%" />
+              </a>
+            </div>
+
+            <div class="nav navbar-right">
+              <li class="nav-item dropdown">
+                <div class="dropdown-content">
+                    <li><a class="nav-link" href="#" style="color: grey">Tab1</a></li>
+                    <li><a class="nav-link" href="#" style="color: grey">Tab2</a></li>
+                    <li><a class="nav-link" href="#" style="color: grey">Tab3</a></li>
+                    <li><a class="nav-link" href="#" style="color: grey">Tab4</a></li>
+                </div>
+              </li>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container" style="height:75vh; margin-top: 10vh">
+      <div class="row">
+        <div style="width:30%; padding:1vh">
+          <div
+            style="background-color: #c4bdbd88; border-radius: 10px; height: 63vh"
+          >
+            <div class="question">
+              <p
+                style="font-size:35px; text-align:center; padding-top: 30px; height: 20%"
+              >
+                Progress
+              </p>
+            </div>
+            <div class="questionStatus" style="height: 80%; width: 90%; margin: 0 auto; color: white">
+              <div >
+                <!-- 
+                use btn-success for green
+                use btn-warning for yellow
+                use btn-primary for blue
+                use btn-dark and yetToAttempt for black
+                use btn-danger for red 
+                -->
+                <div class="row">
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton btn btn-success">1</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton btn btn-success">2</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton btn btn-success">3</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton btn btn-danger">4</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton btn btn-warning">5</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">6</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">7</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">8</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">9</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">10</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton btn btn-primary">11</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">12</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">13</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">14</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">15</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">16</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">17</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">18</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">19</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">20</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">21</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">22</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">23</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">24</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">25</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">26</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">27</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">28</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">29</button>
+                  </div>
+                  <div class="singleQuestionStatus">
+                    <button type="button" class="questionButton yetToAttempt btn btn-dark">30</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="width:70%; padding: 1vh;">
+          <div
+            style="background-color: #c4bdbd88; border-radius: 10px; height:63vh"
+          >
+            <div class="question" style="height: 35%">
+              <p style="font-size:35px; text-align:center; padding-top: 70px">
+                Q.11 This is just a placeholder question? This is just to make
+                it a long one.
+              </p>
+            </div>
+            <div class="mcqOptions row" style="height : 65%; width: 100%; margin: 0 auto">
+              <div style="width: 20%; height:100%">
+                <a href="">
+                  <img src="back.png" style="width: 80%; margin-top: 50%; margin: 0 atuo"/>
+                </a>
+              </div>
+              <div style="width: 60%; height:100%;">
+                <div class="row" style="height: 20%; margin: 15% auto 2.5% auto">
+                  <div style="width: 50%; text-align: center">
+                    <button type="button" class="btn btn-dark" style="border-radius: 15px; height: 75%; font-size: 23px; width: 75%; margin: 0 auto">
+                      Option1
+                    </button>
+                  </div>
+                  <div style="width: 50%; text-align: center">
+                    <button type="button" class="btn btn-dark" style="border-radius: 15px; height: 75%; font-size: 23px; width: 75%; margin: 0 auto">
+                      Option2
+                    </button>
+                  </div>
+                </div>
+                <div class="row" style="height: 20%; margin: 0 auto">
+                  <div style="width: 50%; text-align: center">
+                    <button type="button" class="btn btn-dark" style="border-radius: 15px; height: 75%; font-size: 23px; width: 75%; margin: 0 auto">
+                      Option3
+                    </button>
+                  </div>
+                  <div style="width: 50%; text-align: center">
+                    <button type="button" class="btn btn-dark" style="border-radius: 15px; height: 75%; font-size: 23px; width: 75%; margin: 0 auto">
+                      Option4
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div style="width: 20%; height:100%">
+                <a href="">
+                  <img
+                    src="next.png"
+                    style="width: 80%; margin-top: 50%; margin-left: 15%"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="height:7vh">
+      <div class="row">
+        <div style="width:15vw; margin-left: 4vw">
+          <div
+            style="display:inline-block; width:19px;height:19px; border-radius: 5px; background-color:blue"
+          ></div>
+          <p style="display:inline-block; font-size: 21px">Current Ques.</p>
+        </div>
+        <div style="width:15vw">
+          <div
+            style="display:inline-block; width:19px;height:19px; border-radius: 5px; background-color:green"
+          ></div>
+          <p style="display:inline-block; font-size: 21px">Attempted</p>
+        </div>
+        <div style="width:15vw">
+          <div
+            style="display:inline-block; width:19px;height:19px; border-radius: 5px; background-color:yellow"
+          ></div>
+          <p style="display:inline-block; font-size: 21px">Marked For Review</p>
+        </div>
+        <div style="width:15vw">
+          <div
+            style="display:inline-block; width:19px;height:19px; border-radius: 5px; background-color:#111111"
+          ></div>
+          <p style="display:inline-block; font-size: 21px">Yet To Attempt</p>
+        </div>
+        <div style="width:15vw">
+          <div
+            style="display:inline-block; width:19px;height:19px; border-radius: 5px; background-color:red"
+          ></div>
+          <p style="display:inline-block; font-size: 21px">Unattempted</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var cw = $(".singleQuestionStatus").width();
+      $(".singleQuestionStatus").css({ height: cw + "px" });
+      $(".singleQuestionStatus").css({ 'line-height': cw + "px" });
+    </script>
+  </body>
+</html>
